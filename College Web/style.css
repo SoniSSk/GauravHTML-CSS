@@ -1,0 +1,177 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+*{
+margin: 0;
+padding: 0;
+}
+           body{
+background-image: url(1.jpg);  
+-webkit-background-size:cover;
+background-size:cover;
+background-position: center center;
+height: 100vh;
+}
+
+.wrapper{
+width: 860px; 
+margin: 0 auto;
+}
+.wrapper ul{
+list-style: none;
+margin-top: 2%;
+}
+.wrapper ul li {
+background: #dfa2a2;
+width: 170px;
+border: 1px solid #fff;
+height: 50px;
+line-height: 50px;
+text-align: center;
+float: left;
+color: #fff;
+font-size: 16px;
+position: relative;
+font-family: 'Times New Roman', Times, serif;
+text-transform: uppercase;
+font-weight: bold;
+}
+.wrapper ul li:hover{
+background: rgb(12, 8, 240); 
+}
+
+.wrapper ul ul{
+display: none;
+}
+.wrapper ul li:hover > ul{
+display: block;
+}
+.wrapper ul ul ul{
+margin-left: 170px;
+top: 0;
+position: absolute;
+}
+
+.bgimage{
+	background-image: url('tt.jpg');
+	background-size: 100% 110%;
+	width: 100%;
+	height: 100vh;
+}
+
+.menu{
+
+	width: 100%;
+	height: 100px;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.leftmenu{
+	width: 20%;
+	line-height: 100px;
+	float: left;
+/*	background-color: yellow;*/
+}
+
+.leftmenu h4{
+	padding-left: 70px;
+	font-weight: bold;
+	color: white;
+	font-size: 22px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#fisrtlist{
+	color: orange;
+}
+
+.rightmenu ul li:hover{
+	color: orange;
+}
+
+
+.text{
+	width: 100%;
+	margin-top: 185px;
+	text-transform: uppercase;
+	text-align: center;
+	color:white;
+}
+
+.text h2{
+
+	font-size: 14px;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.text h1{
+	font-size:62px;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: 700px;
+	margin:14px 0px;
+}
+
+#buttonone{
+	background-color: rgb(105, 114, 236);
+	border: none;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 40px;
+	width: 150px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	margin-top: 25px;
+}
+
+#buttontwo{
+
+	background-color: transparent;
+	border: none;
+	font-family: 'Times New Roman', Times, serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 40px;
+	width: 150px;
+}
+
+#testimonials .testimonial img {
+	width: 100px;
+	float: left;
+	margin-right: 20px;
+	border-radius: 50%;
+  }
+  
+  #contact-form .form-group {
+	margin-bottom: 20px;
+  }
+  
+  #contact-form label {
+	display: block;
+	margin-bottom: 5px;
+  }
+  
+  #contact-form input, 
+  #contact-form textarea {
+	width: 100%;
+	padding: 10px;
+	border: 1px rgb(194, 8, 8) solid;
+  }
+  
+  #contact-form textarea {
+	height: 200px;
+  }
+  
+  #contact-form input:focus, 
+  #contact-form textarea:focus {
+	outline: none;
+	border-color: rgb(138, 23, 23);
+  }
+
+  #main-footer {
+	text-align: center;
+	background: rgb(139, 8, 8);
+	color: #fff;
+	padding: 20px;
+  }
