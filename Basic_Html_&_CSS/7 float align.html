@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Float & Align</title>
+  <style>
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.4em;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 30px auto;
+    }
+
+    .clr {
+      clear:both;
+    }
+
+    .box {
+      background: #bb7070;
+      border: 1px solid #333;
+      padding: 20px;
+      margin-bottom: 15px;
+    }
+    .box p {
+      text-align: left;
+      text-align: right;
+      text-align: center;
+      text-align: justify;
+      text-align: center;
+    }
+
+    #box-2 {
+      float: left;
+      width: 28%;
+    }
+
+    #box-3 {
+      float: right;
+      width: 30%;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div id="box-1" class="box">
+      <h3>Welcome to MKGP Group </h3>
+      <p>There is a lot of work Provided you...</p>
+    </div>
+    <div id="box-2" class="box">
+      <h3>CEO</h3>
+      <p>Mr. Ajay Kumar</p>
+    </div>
+    <div id="box-3" class="box">
+      <h3>Managing Director (MD)</h3>
+      <p>Anurag Verma</p>
+    </div>
+    <div class="clr"></div>
+    <div id="box-4" class="box">
+      <h3>Contact us</h3>
+      <p>Sonsa, Rahui (Nalanda) Bihar-803119</p>
+    </div>
+  </div>
+</body>
+</html>
