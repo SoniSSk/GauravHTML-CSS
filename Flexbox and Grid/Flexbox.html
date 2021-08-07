@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Use of Flexbox</title>
+    <style>
+        *{margin: 0; padding: 0; box-sizing: border-box;}
+        section{ width: 100%; background: rgb(201, 214, 127);
+      }
+  
+        section div{
+         flex-basis: 33.33%;
+         padding: 10px;
+         border:3px solid black;
+        }
+      
+        .flexone{
+         background: red;
+        }
+      
+        .flextwo{
+         background: yellow;}
+      
+        .flexthree{
+                   background: green;} 
+      
+        @media(min-width: 500px){
+         section{
+          display: flex;
+          justify-content: space-between;
+          
+         }
+        }
+       </style>
+      </head>
+<body>
+
+<section>
+ 
+ <div class="flexone"> My Name is Gaurav Kumar. I am from Sonsa, Rahui, Nalanda (Bihar) 803119 India. </div>
+ <div class="flextwo"> The skills needed to be a computer lab technician include knowledge of computer
+    systems and the ability to instruct students, lab technician assistants and faculty. They must know how to operate and maintain all related computer equipment in the lab, such as printers, projectors, speakers and scanners.  </div>
+ <div class="flexthree"> There is limited rainfall in various places, where farmers depend on canals, 
+   tube wells and ground water. But in these areas irrigation is not possible from canal or well all the time and the farmer depends on ground water only. This  </div>
+</section>
+</body>
+</html>
+

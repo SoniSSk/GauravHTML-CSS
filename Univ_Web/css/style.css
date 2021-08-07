@@ -1,0 +1,201 @@
+
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.4;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0.75rem 0;
+}
+
+/* Utility Classes */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+.text-center {
+  text-align:center;
+}
+
+.text-primary {
+  color: #93cb52;
+}
+
+.bg-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
+
+.bg-primary {
+  background: #93cb52;
+  color: #fff;
+}
+
+.l-heading {
+  font-size: 4rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+
+.m-heading {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+
+.lead {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+.btn {
+  display: inline-block;
+  color: #fff;
+  background: #5f4fe9;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: #c23d3d;
+}
+
+#navbar {
+  display: flex;
+  position: sticky;
+  top:0;
+  background: #333;
+  color: #fff;
+  justify-content: space-between;
+  z-index: 1;
+  padding: 1rem;
+}
+
+#navbar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+#navbar ul li a {
+  color: #fff;
+  padding: 0.75rem;
+  margin: 0 0.25rem;
+}
+
+#navbar ul li a:hover {
+  background: #2d06b9;
+  border-radius: 5px;
+}
+
+#showcase {
+  background: rgb(230, 226, 226) url('../img/showcase.jpg') no-repeat center center/cover;
+  height: 100vh;
+  color: #fff;
+}
+
+#showcase .showcase-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0 2rem;
+  top: 65px;
+  left:0;
+  right: 0;
+  bottom: 0;
+}
+
+#admission .items {
+  display: flex;
+  padding: 1rem;
+}
+
+#admission .items .item {
+  text-align: center;
+  padding: 1rem;
+}
+
+#admission .items .item i {
+  padding: 1rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+#administration{
+  display: flex;
+}
+
+#administration div {
+  flex: 1;
+}
+
+#syllabus{
+  display: flex;
+}
+
+#syllabus div {
+  flex: 1;
+}
+
+#faculty {
+  display: flex;
+}
+
+#faculty div {
+  flex: 1;
+}
+
+#faculty .faculty-img {
+  background: url('../img/people.jpg') no-repeat center center/cover;
+}
+#facilities {
+  display: flex;
+}
+
+#facilities div {
+  flex: 1;
+}
+
+#facilities .facilities-img {
+  background: url('/img/ddddd.jpg') no-repeat center center/cover;
+}
+
+#clients .items {
+  display: flex;
+}
+
+#clients .items img {
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+
+#contact .contact-form .form-group {
+  margin: 0.75rem;
+}
+
+#contact .contact-form label {
+  display: block;
+}
+
